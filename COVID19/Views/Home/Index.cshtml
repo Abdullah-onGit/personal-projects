@@ -4,7 +4,7 @@
 }
 
 <div class="text-center">
-    <table class="table table-bordered table-striped">
+    <table id="test" class="table table-bordered table-striped">
         <thead>
             <th>Name of State / UT</th>
             <th>Total Confirmed cases (Indian National)</th>
@@ -25,3 +25,8 @@
         </tbody>
     </table>
   </div>
+  <script>
+      $(document).ready( function () {
+    $('#test').DataTable();
+} );
+  </script>
