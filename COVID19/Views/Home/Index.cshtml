@@ -1,8 +1,27 @@
-﻿@{
+﻿@model List<vInfectionMaster>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <th>Name of State / UT</th>
+            <th>Total Confirmed cases (Indian National)</th>
+            <th>Total Confirmed cases ( Foreign National )</th>
+            <th>Cured/Discharged/Migrated</th>
+            <th>Death</th>
+        </thead>
+        <tbody>
+            @foreach(var rec in Model){
+            <tr>
+                <td>@rec.StateName</td>
+                <td>@rec.TotalConfirmedCasesNational</td>
+                <td>@rec.TotalConfirmedCasesForeignNational</td>
+                <td>@rec.Cured</td>
+                <td>@rec.Death</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+  </div>

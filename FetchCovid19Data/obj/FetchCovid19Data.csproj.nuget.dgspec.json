@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/abu/Documents/personal-projects/FetchCovid19Data/FetchCovid19Data.csproj": {}
+  },
+  "projects": {
+    "/home/abu/Documents/personal-projects/FetchCovid19Data/FetchCovid19Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/abu/Documents/personal-projects/FetchCovid19Data/FetchCovid19Data.csproj",
+        "projectName": "FetchCovid19Data",
+        "projectPath": "/home/abu/Documents/personal-projects/FetchCovid19Data/FetchCovid19Data.csproj",
+        "packagesPath": "/home/abu/.nuget/packages/",
+        "outputPath": "/home/abu/Documents/personal-projects/FetchCovid19Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/abu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
