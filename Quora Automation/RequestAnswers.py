@@ -49,5 +49,5 @@ for questions in range(450):
     if DoneBtnLocation != None:
         buttonx, buttony = pyautogui.center(DoneBtnLocation)
         pyautogui.click(buttonx, buttony)
-        time.sleep(0.7)
-        pyautogui.scroll(-14)
+        time.sleep(1)
+        pyautogui.scroll(-13)
